@@ -1,0 +1,60 @@
+/*!
+ * Custome grid for Bootstrap
+ * Copyright 2011-2016 Yudiz Solutions Pvt Ltd.
+ * Author: Yudiz solutions pvt ltd.
+ * Author Url: http://yudiz.com/
+
+................................................................................
+..............................  Yudiz  .........................................
+....   ........   ............................   ....   ........................
+.....   ......   .............................   ...............................
+......   ....   ....    ......   .....           ....   ...            .........
+.......   ..   ......   ......   ....   ......   ....   ..........    ..........
+........     ........   ......   ....   ......   ....   ........    ............
+.........   .........   ......   ....   ......   ....   ......    ..............
+........   ..........   ......   ....   ......    ...   ....    ................
+.......   ............        .   ....         .  ...   ...            .........
+................................................................................
+................................................................................
+ */
+[class*="cust-xs-grid-"],[class*="cust-sm-grid-"],[class*="cust-md-grid-"],[class*="cust-lg-grid-"] { padding-left: 15px; padding-right: 15px; float: left; width: 100%; min-height: 1px;}
+@media(min-width:1200px){
+    .cust-xs-grid-5, .cust-sm-grid-5, .cust-md-grid-5, .cust-lg-grid-5 { width: calc(100% / 5);}
+    .cust-xs-grid-7, .cust-sm-grid-7, .cust-md-grid-7, .cust-lg-grid-7 { width: calc(100% / 7);}
+    .cust-xs-grid-10, .cust-sm-grid-10, .cust-md-grid-10, .cust-lg-grid-10 { width: calc(100% / 10);}
+    .cust-xs-grid-11, .cust-sm-grid-11, .cust-md-grid-11, .cust-lg-grid-11 { width: calc(100% / 11);}
+    .cust-xs-offset-grid-5, .cust-sm-offset-grid-5, .cust-md-offset-grid-5, .cust-lg-offset-grid-5 { margin-left: calc(100% / 5);}
+    .cust-xs-offset-grid-7, .cust-sm-offset-grid-7, .cust-md-offset-grid-7, .cust-lg-offset-grid-7 { margin-left: calc(100% / 7);}
+    .cust-xs-offset-grid-10, .cust-sm-offset-grid-10, .cust-md-offset-grid-10, .cust-lg-offset-grid-10 { margin-left: calc(100% / 10);}
+    .cust-xs-offset-grid-11, .cust-sm-offset-grid-11, .cust-md-offset-grid-11, .cust-lg-offset-grid-11 { margin-left: calc(100% / 11);}
+}
+@media(min-width:992px) and (max-width:1199px){
+    .cust-xs-grid-5, .cust-sm-grid-5, .cust-md-grid-5 { width: calc(100% / 5);}
+    .cust-xs-grid-7, .cust-sm-grid-7, .cust-md-grid-7 { width: calc(100% / 7);}
+    .cust-xs-grid-10, .cust-sm-grid-10, .cust-md-grid-10 { width: calc(100% / 10);}
+    .cust-xs-grid-11, .cust-sm-grid-11, .cust-md-grid-11 { width: calc(100% / 11);}
+    .cust-xs-offset-grid-5, .cust-sm-offset-grid-5, .cust-md-offset-grid-5 { margin-left: calc(100% / 5);}
+    .cust-xs-offset-grid-7, .cust-sm-offset-grid-7, .cust-md-offset-grid-7 { margin-left: calc(100% / 7);}
+    .cust-xs-offset-grid-10, .cust-sm-offset-grid-10, .cust-md-offset-grid-10 { margin-left: calc(100% / 10);}
+    .cust-xs-offset-grid-11, .cust-sm-offset-grid-11, .cust-md-offset-grid-11 { margin-left: calc(100% / 11);}
+}
+@media(min-width:768px) and (max-width:991px){
+    .cust-xs-grid-5, .cust-sm-grid-5 { width: calc(100% / 5);}
+    .cust-xs-grid-7, .cust-sm-grid-7 { width: calc(100% / 7);}
+    .cust-xs-grid-10, .cust-sm-grid-10 { width: calc(100% / 10);}
+    .cust-xs-grid-11, .cust-sm-grid-11 { width: calc(100% / 11);}    
+    .cust-xs-offset-grid-5, .cust-sm-offset-grid-5 { margin-left: calc(100% / 5);}
+    .cust-xs-offset-grid-7, .cust-sm-offset-grid-7 { margin-left: calc(100% / 7);}
+    .cust-xs-offset-grid-10, .cust-sm-offset-grid-10 { margin-left: calc(100% / 10);}
+    .cust-xs-offset-grid-11, .cust-sm-offset-grid-11 { margin-left: calc(100% / 11);}
+}
+@media(max-width:767px) {
+    .cust-xs-grid-5 { width: calc(100% / 5);}
+    .cust-xs-grid-7 { width: calc(100% / 7);}
+    .cust-xs-grid-10 { width: calc(100% / 10);}
+    .cust-xs-grid-11 { width: calc(100% / 11);}    
+    .cust-xs-offset-grid-5 { margin-left: calc(100% / 5);}
+    .cust-xs-offset-grid-7 { margin-left: calc(100% / 7);}
+    .cust-xs-offset-grid-10 { margin-left: calc(100% / 10);}
+    .cust-xs-offset-grid-11 { margin-left: calc(100% / 11);}
+}
